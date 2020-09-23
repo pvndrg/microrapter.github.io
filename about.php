@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once 'dbconnect.php';
+include_once 'dbconnect.php';//this is database connection
 
 if(!isset($_SESSION['user']))
 {
